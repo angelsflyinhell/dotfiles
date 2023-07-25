@@ -33,3 +33,5 @@ require("theme")
 -- Autostart
 
 require("awful").spawn.with_shell("~/.config/awesome/autostart")
+require("awful").spawn.with_shell("~/.config/autostart/layout")
+
